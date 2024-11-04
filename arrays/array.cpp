@@ -4,7 +4,7 @@ int main() {
     int numbers[100];
 
     for (int i = 0; i < 100; i++) {
-        numbers[i] = i;
+        numbers[i] = i + 1;
     }
 
     // Print memory address using & operator
@@ -19,4 +19,12 @@ int main() {
 
 
     return 0;
+}
+ 
+// rimozione tramite shifting
+void removeMiddle(int arr[], int i, int length) {
+    for (int index =  i+1; index < length; index++) {
+        arr[index -1] = arr[index]; 
+    }
+    arr[length-1] = 0;
 }
