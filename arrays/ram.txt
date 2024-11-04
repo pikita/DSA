@@ -1,0 +1,20 @@
+RAM = Random Access Memory
+RAM has : Value and address.
+
+Example of RAM:
+[Address]  [Value]
+0x1000     42
+0x1004     17
+0x1008     99
+0x100C     23
+0x1010     55
+
+Each memory location has:
+- Unique hexadecimal address
+- 32-bit value stored at that address
+
+
+data structure means to store,sort and search data into RAM.
+
+integers are 32 bits equal to 4 byte.
+chars are 8 bits equal to 1 byte.
